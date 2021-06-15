@@ -29,7 +29,7 @@ for i in range(3):
     print('\n3. Values of Z mean = '+str(np.mean(z)))
     print('\n4. Values of Z Variance = '+str(np.var(z)))
 
-    # Normalize with zero mean variation
+    # Normalize with zero mean  variation
     z_norm = (z - np.mean(z))/np.std(z)
     print('\n5. Values of Z Normalized = '+str(z_norm))
 
